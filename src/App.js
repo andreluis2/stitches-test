@@ -13,10 +13,16 @@ const Button = styled('button', {
   variants: {
     color: {
       red: {
-        backgroundColor: 'red'
+        backgroundColor: '#c00000',
+        '&:hover': {
+          backgroundColor: 'red',
+        }
       },
       green: {
-        backgroundColor: 'green'
+        backgroundColor: 'green',
+        '&:hover': {
+          backgroundColor: 'lightgreen',
+        }
       },
     }
   }
